@@ -43,7 +43,7 @@ const ComponentOne = () => {
             </form>
 
             <div className='card'>{        
-                    secState.map((value,index)=>{
+                    secState.map((value)=>{
                         return(
                             <div className="innerCard">Name:{value.name}| Department:{value.department}|Rating:{value.rating}</div>
                         )                 
